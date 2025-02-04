@@ -57,7 +57,7 @@ publishing {
         //
         create<MavenPublication>("capitalizing-util") {
             from(components["java"]) // One of java, web, javaPlatform 컴포넌트
-            groupId = "com.github.kim doi" // github username required
+            groupId = "com.github.kimdobbang" // github username required
             artifactId = "practice-capitalizing-util" // 아래와 똑같다.
 //            artifactId = project.name
             version = project.version.toString()
