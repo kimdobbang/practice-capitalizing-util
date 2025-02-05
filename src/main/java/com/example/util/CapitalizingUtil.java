@@ -8,7 +8,7 @@ public final class CapitalizingUtil {
 
     }
 
-    public static String Capitalize(String string) {
+    public static String capitalize(String string) {
         char[] origin = string.toCharArray();
         char[] target = new char[origin.length];
 
